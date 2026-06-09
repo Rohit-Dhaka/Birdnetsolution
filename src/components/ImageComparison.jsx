@@ -21,7 +21,7 @@ export default function ImageComparison() {
     >
       {/* Before Image */}
       <img
-        src={Firtimg}
+        src={Secondimg}
         alt="Before"
         className="absolute inset-0 w-full h-full object-cover"
       />
@@ -32,7 +32,7 @@ export default function ImageComparison() {
         style={{ width: `${position}%` }}
       >
          <img
-          src={Secondimg}
+          src={Firtimg}
           alt="After"
           className="w-full h-full object-cover"
         /> 

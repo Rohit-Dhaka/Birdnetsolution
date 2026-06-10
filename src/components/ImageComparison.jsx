@@ -21,7 +21,7 @@ export default function ImageComparison() {
   }, []);
 
   return (
-    <div className="relative w-full max-w-4xl h-[500px] mx-auto overflow-hidden rounded-2xl">
+    <div className="relative w-full max-w-4xl sm:h-[500px] h-[200px] mx-auto overflow-hidden rounded-2xl">
       
       {/* Before */}
       <img

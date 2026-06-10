@@ -5,6 +5,7 @@ import {
   Zap,
   Smile,
   Headphones,
+  Phone,
 } from "lucide-react";
 
 export default function WhyChooseUs() {
@@ -158,9 +159,9 @@ export default function WhyChooseUs() {
 
           <a
             href="tel:+917568005390"
-            className="mt-8 inline-flex items-center rounded-2xl bg-orange-500 px-8 py-4 font-semibold text-white transition-all duration-300 hover:scale-105 hover:bg-orange-600"
+            className="mt-8 inline-flex items-center gap-2 rounded-2xl bg-orange-500 px-8 py-4 font-semibold text-white transition-all duration-300 hover:scale-105 hover:bg-orange-600"
           >
-            📞 Call Now
+            <Phone/> Call Now
           </a>
         </div>
       </div>

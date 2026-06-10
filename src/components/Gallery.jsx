@@ -1,10 +1,10 @@
-import GreenParda from "../assets/Images/Png/GreenParda.png";
-import SolarFencing from "../assets/Images/Png/SolarPowerFencing.png";
-import SpikeInstallation from "../assets/Images/Png/SpikeInstallation.png";
-import BirdNet from "../assets/Images/Png/BirdNetService.png";
-import MosquitoNet from "../assets/Images/Png/MosquitoNetService.png";
-import InvisibleGrill from "../assets/Images/Png/InvisibleGrillService.png";
-import SafetyNet from "../assets/Images/Png/SafetyNetService.png";
+import GreenParda from "../assets/Images/Png/GreenParda.webp";
+import SolarFencing from "../assets/Images/Png/SolarPowerFencing.webp";
+import SpikeInstallation from "../assets/Images/Png/SpikeInstallation.webp";
+import BirdNet from "../assets/Images/Png/BirdNetService.webp";
+import MosquitoNet from "../assets/Images/Png/MosquitoNetService.webp";
+import InvisibleGrill from "../assets/Images/Png/InvisibleGrillService.webp";
+import SafetyNet from "../assets/Images/Png/SafetyNetService.webp";
 
 export default function Gallery() {
  const services = [

@@ -39,33 +39,33 @@ export default function Footer() {
 
             <ul className="space-y-3">
               <li>
-                <a href="#home" className="hover:text-orange-400 relative inline-block after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-[2px] after:w-0 after:bg-orange-400 after:transition-all after:duration-300 hover:after:w-full">
+                <Link to='/' className="hover:text-orange-400 relative inline-block after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-[2px] after:w-0 after:bg-orange-400 after:transition-all after:duration-300 hover:after:w-full">
                   Home
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="#why-choose-us" className="hover:text-orange-400 relative inline-block after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-[2px] after:w-0 after:bg-orange-400 after:transition-all after:duration-300 hover:after:w-full">
+                <Link to="/why-choose-us" className="hover:text-orange-400 relative inline-block after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-[2px] after:w-0 after:bg-orange-400 after:transition-all after:duration-300 hover:after:w-full">
                   Why Choose Us
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="#our-dream" className="hover:text-orange-400 relative inline-block after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-[2px] after:w-0 after:bg-orange-400 after:transition-all after:duration-300 hover:after:w-full">
+                <Link to="/our-dream" className="hover:text-orange-400 relative inline-block after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-[2px] after:w-0 after:bg-orange-400 after:transition-all after:duration-300 hover:after:w-full">
                   Our Dream
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="#services" className="hover:text-orange-400 relative inline-block after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-[2px] after:w-0 after:bg-orange-400 after:transition-all after:duration-300 hover:after:w-full">
+                <Link to="/services" className="hover:text-orange-400 relative inline-block after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-[2px] after:w-0 after:bg-orange-400 after:transition-all after:duration-300 hover:after:w-full">
                   Services
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="#contact" className="hover:text-orange-400 relative inline-block after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-[2px] after:w-0 after:bg-orange-400 after:transition-all after:duration-300 hover:after:w-full">
+                <Link to="/contact" className="hover:text-orange-400 relative inline-block after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-[2px] after:w-0 after:bg-orange-400 after:transition-all after:duration-300 hover:after:w-full">
                   Contact 
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -76,13 +76,13 @@ export default function Footer() {
               Our Services
             </h3>
 
-            <ul className="space-y-3">
-              <li>Bird Net Service</li>
-              <li>Safety Net Service</li>
-              <li>Invisible Grill</li>
-              <li>Mosquito Net Service</li>
-              <li>Spike Installation</li>
-              <li>Solar Power Fencing</li>
+            <ul className="space-y-3 flex flex-col">
+              <Link to="/services" className=" hover:text-orange-500 duration-300">Bird Net Service</Link>
+              <Link to="/services" className=" hover:text-orange-500 duration-300">Safety Net Service</Link>
+              <Link to="/services" className=" hover:text-orange-500 duration-300">Invisible Grill</Link>
+              <Link to="/services" className=" hover:text-orange-500 duration-300">Mosquito Net Service</Link>
+              <Link to="/services" className=" hover:text-orange-500 duration-300">Spike Installation</Link>
+              <Link to="/services" className=" hover:text-orange-500 duration-300">Solar Power Fencing</Link>
             </ul>
           </div>
 
@@ -102,17 +102,20 @@ export default function Footer() {
               </div>
 
               <div className="flex items-center gap-3">
-                <Phone size={18} />
+                  <a href="tel:7568005390">
+                    <Phone size={18} className=" cursor-pointer"  />                  
+                </a>
                 <a href="tel:7568005390">
                   +91 7568005390
                 </a>
               </div>
 
               <div className="flex items-center gap-3">
-                <Mail size={18} />
-                <a href="mailto:info@aashiyanabirdnet.com">
-                  info@aashiyanabirdnet.com
-                </a>
+                <Mail size={18} className=" cursor-pointer"  />
+               <a href="mailto:aashiyanabirdnet@gmail.com">
+                aashiyanabirdnet@gmail.com
+               </a>
+                
               </div>
             </div>
           </div>
@@ -132,7 +135,7 @@ export default function Footer() {
               </p>
             </div>
 
-            <form className="flex w-full max-w-lg overflow-hidden rounded-xl border border-slate-700">
+            <form action="https://formsubmit.co/rohitdhaka2110@gmail.com" method="POST" className="flex w-full max-w-lg overflow-hidden rounded-xl border border-slate-700">
               <input
                 type="email"
                 placeholder="Enter your email"

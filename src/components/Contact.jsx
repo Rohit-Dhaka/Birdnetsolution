@@ -66,7 +66,7 @@ export default function Contact() {
         {/* Content */}
         <div className="grid gap-10 lg:grid-cols-2">
           {/* Contact Info */}
-          <div className="rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-xl">
+          <div className="rounded-3xl border border-white/10 bg-white/5 sm:p-8 p-6 backdrop-blur-xl">
             <h3 className="mb-8 text-2xl font-bold">
               Contact Information
             </h3>
@@ -78,9 +78,9 @@ export default function Contact() {
                 return (
                   <div
                     key={index}
-                    className="group flex gap-4 rounded-2xl border border-white/5 p-4 transition-all duration-300 hover:border-orange-500/30 hover:bg-white/5"
+                    className="group flex gap-4  max-sm:flex-col max-sm:items-start rounded-2xl border border-white/5 p-4 transition-all duration-300 hover:border-orange-500/30 hover:bg-white/5"
                   >
-                    <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-orange-500/10">
+                    <div className="flex h-14 min-w-14 items-center justify-center rounded-2xl bg-orange-500/10">
                       <Icon
                         size={24}
                         className="text-orange-500"
@@ -133,7 +133,8 @@ export default function Contact() {
           </div>
 
           {/* Contact Form */}
-          <div className="rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-xl">
+          
+          <div className="rounded-3xl border border-white/10 bg-white/5 sm:p-8 p-6 backdrop-blur-xl">
             <h3 className="mb-8 text-2xl font-bold">
               Request A Free Quote
             </h3>
@@ -195,46 +196,7 @@ export default function Contact() {
           </div>
         </div>
 
-        {/* Bottom Stats */}
-        <div className="mt-16 rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-xl">
-          <div className="grid grid-cols-2 gap-8 text-center md:grid-cols-4">
-            <div>
-              <h3 className="text-4xl font-bold text-orange-500">
-                500+
-              </h3>
-              <p className="mt-2 text-slate-400">
-                Projects Completed
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-4xl font-bold text-orange-500">
-                100%
-              </h3>
-              <p className="mt-2 text-slate-400">
-                Client Satisfaction
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-4xl font-bold text-orange-500">
-                24/7
-              </h3>
-              <p className="mt-2 text-slate-400">
-                Support Available
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-4xl font-bold text-orange-500">
-                7+
-              </h3>
-              <p className="mt-2 text-slate-400">
-                Professional Services
-              </p>
-            </div>
-          </div>
-        </div>
+    
       </div>
     </section>
   );

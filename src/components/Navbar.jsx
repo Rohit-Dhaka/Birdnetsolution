@@ -1,7 +1,7 @@
 import { Menu, Phone, X } from "lucide-react";
 import { useState, useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
-import Logo from "../assets/Images/Png/Logo.jpeg";
+import Logo from "../assets/Images/Png/Logo.webp";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +29,7 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur-md">
+      <header className="sticky top-0 z-50 border-b border-slate-200 bg-white backdrop-blur-md">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex h-20 items-center justify-between">
             {/* Logo */}

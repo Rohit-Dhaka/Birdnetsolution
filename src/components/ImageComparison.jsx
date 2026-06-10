@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import Firtimg from "../assets/Images/Png/1.jpg";
-import Secondimg from "../assets/Images/Png/2.png";
+import Firtimg from "../assets/Images/Png/1.webp";
+import Secondimg from "../assets/Images/Png/2.webp";
 
 export default function ImageComparison() {
   const [position, setPosition] = useState(50);

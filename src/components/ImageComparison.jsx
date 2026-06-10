@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
-import Firtimg from "../assets/Images/Png/1.webp";
-import Secondimg from "../assets/Images/Png/2.webp";
+import Firtimg from "../assets/Images/Png/1.png";
+import Secondimg from "../assets/Images/Png/2.png";
+import {  MoveHorizontal } from "lucide-react";
+
 
 export default function ImageComparison() {
   const [position, setPosition] = useState(50);
@@ -50,8 +52,8 @@ export default function ImageComparison() {
           transform: "translateX(-50%)",
         }}
       >
-        <div className="absolute top-1/2 left-1/2 w-12 h-12 bg-white rounded-full shadow-xl -translate-x-1/2 -translate-y-1/2 flex items-center justify-center font-bold">
-          ↔
+        <div className="absolute top-1/2 left-1/2 w-12 h-12 bg-orange-500 rounded-full shadow-xl -translate-x-1/2 -translate-y-1/2 flex items-center justify-center font-bold text-white">
+          <MoveHorizontal/>
         </div>
       </div>
 

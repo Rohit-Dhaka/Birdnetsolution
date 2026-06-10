@@ -145,6 +145,7 @@ export default function Footer() {
               <button
                 type="submit"
                 className="bg-orange-500 px-5 text-white hover:bg-orange-600 transition cursor-pointer"
+                  aria-label="Subscribe"
               >
                 <Send size={18} />
               </button>

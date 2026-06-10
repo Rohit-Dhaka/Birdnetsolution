@@ -80,6 +80,7 @@ export default function Navbar() {
             <button
               onClick={() => setIsOpen(true)}
               className="lg:hidden text-slate-800"
+                aria-label="Open navigation menu"
             >
               <Menu size={30} />
             </button>
@@ -116,6 +117,7 @@ export default function Navbar() {
           <button
             onClick={() => setIsOpen(false)}
             className="text-slate-700"
+              aria-label="Close menu"
           >
             <X size={28} />
           </button>

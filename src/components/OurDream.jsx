@@ -1,3 +1,4 @@
+
 import ImageComparison from "./ImageComparison";
 
 export default function OurDream() {
@@ -17,7 +18,7 @@ export default function OurDream() {
           {/* Content Side */}
           <div>
             <span className="text-orange-500 font-semibold uppercase tracking-wider">
-              Our Dream
+               Our Dream
             </span>
 
             <h2 className="mt-4 text-4xl md:text-5xl font-bold text-slate-900">

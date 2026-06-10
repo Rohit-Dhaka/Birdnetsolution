@@ -7,6 +7,8 @@ import {
   Fence,
   Zap,
   ArrowRight,
+  Phone,
+  
 } from "lucide-react";
 
 export default function Services() {
@@ -138,9 +140,10 @@ export default function Services() {
 
           <a
             href="tel:+917568005390"
-            className="mt-8 inline-flex items-center rounded-2xl bg-orange-500 px-8 py-4 font-semibold text-white transition-all duration-300 hover:scale-105 hover:bg-orange-600"
+            className="mt-8 inline-flex items-center rounded-2xl bg-orange-500 px-8 py-4 font-semibold text-white transition-all duration-300 hover:scale-105 hover:bg-orange-600  gap-2"
           >
-            📞 Get Free Quote
+            <Phone/> Get Free Quote
+                        
           </a>
         </div>
       </div>

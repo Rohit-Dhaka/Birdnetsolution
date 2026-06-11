@@ -134,7 +134,7 @@ export default function Contact() {
 
           {/* Contact Form */}
           
-          <div className="rounded-3xl border border-white/10 bg-white/5 sm:p-8 p-6 backdrop-blur-xl">
+          <div className="rounded-3xl border border-white/10 bg-white/5 sm:p-8 backdrop-blur-xl">
             <h3 className="mb-8 text-2xl font-bold">
               Request A Free Quote
             </h3>

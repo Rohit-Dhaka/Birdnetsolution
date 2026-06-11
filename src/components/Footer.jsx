@@ -102,9 +102,9 @@ export default function Footer() {
               </div>
 
               <div className="flex items-center gap-3">
-                  <a href="tel:7568005390">
-                    <Phone size={18} className=" cursor-pointer"  />                  
-                </a>
+                 <a href="tel:7568005390">
+  <Phone size={18} />
+</a>
                 <a href="tel:7568005390">
                   +91 7568005390
                 </a>
